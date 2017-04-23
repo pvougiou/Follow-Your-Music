@@ -1,0 +1,105 @@
+{
+  "John Domingue": {
+    "Brussels": [
+      {
+        "artist": "David Bowie",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "David Bowie",
+        "description": "<span class=\"location-title\">David Bowie</span> by <span class=\"location-artist\">David Bowie</span> was released in Brussels [1976]"
+      },
+      {
+        "artist": "David Bowie",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "The Singles Collection",
+        "description": "<span class=\"location-title\">The Singles Collection</span> by <span class=\"location-artist\">David Bowie</span> was released in Brussels [1997]"
+      },
+      {
+        "artist": "Keane",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "The Lovers Are Losing",
+        "description": "<span class=\"location-title\">The Lovers Are Losing</span> by <span class=\"location-artist\">Keane</span> was released in Brussels [2008-10]"
+      },
+      {
+        "artist": "Roxy Music",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Dance Away",
+        "description": "<span class=\"location-title\">Dance Away</span> by <span class=\"location-artist\">Roxy Music</span> was released in Brussels [1979]"
+      },
+      {
+        "artist": "Queen",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Killer Queen",
+        "description": "<span class=\"location-title\">Killer Queen</span> by <span class=\"location-artist\">Queen</span> was released in Brussels [1974-10]"
+      },
+      {
+        "artist": "Queen",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Smiles From Under the Crown",
+        "description": "<span class=\"location-title\">Smiles From Under the Crown</span> by <span class=\"location-artist\">Queen</span> was released in Brussels [2004-10-01]"
+      },
+      {
+        "artist": "Elvis Costello",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Mystery Dance",
+        "description": "<span class=\"location-title\">Mystery Dance</span> by <span class=\"location-artist\">Elvis Costello</span> was released in Brussels [1977]"
+      },
+      {
+        "artist": "Elvis Costello",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Watching the Detectives",
+        "description": "<span class=\"location-title\">Watching the Detectives</span> by <span class=\"location-artist\">Elvis Costello</span> was released in Brussels [1977-10-14]"
+      },
+      {
+        "artist": "Elvis Costello",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Watching the Detectives",
+        "description": "<span class=\"location-title\">Watching the Detectives</span> by <span class=\"location-artist\">Elvis Costello</span> was released in Brussels [1977-10-14]"
+      },
+      {
+        "artist": "The Kinks",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Greatest Hits",
+        "description": "<span class=\"location-title\">Greatest Hits</span> by <span class=\"location-artist\">The Kinks</span> was released in Brussels [1984]"
+      },
+      {
+        "artist": "The Kinks",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "The Story of The Kinks",
+        "description": "<span class=\"location-title\">The Story of The Kinks</span> by <span class=\"location-artist\">The Kinks</span> was released in Brussels [1995]"
+      },
+      {
+        "artist": "The Cure",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Concert at Ancienne Belgique, Brussels, 11 June 1982",
+        "description": "<span class=\"location-title\">Concert at Ancienne Belgique, Brussels, 11 June 1982</span> by <span class=\"location-artist\">The Cure</span> was released in Brussels [1982-06-11]"
+      },
+      {
+        "artist": "The Cure",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Pillbox Tales: 1977-1979",
+        "description": "<span class=\"location-title\">Pillbox Tales: 1977-1979</span> by <span class=\"location-artist\">The Cure</span> was released in Brussels [2010]"
+      },
+      {
+        "artist": "Blondie",
+        "type": "Release",
+        "location": "Brussels",
+        "title": "Eat to the Beat",
+        "description": "<span class=\"location-title\">Eat to the Beat</span> by <span class=\"location-artist\">Blondie</span> was released in Brussels [1979]"
+      }
+    ],
+    "London": []
+  }
+}

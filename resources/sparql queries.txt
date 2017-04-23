@@ -1,0 +1,79 @@
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+
+select * where {<http://musicbrainz.org/area/8a754a16-0027-3a29-b6d7-2b40ea0481ed#_> ?p ?o} LIMIT 100
+
+PREFIX dc: <http://purl.org/dc/terms/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+
+select * where {?s ?p <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>} LIMIT 100
+
+
+#based near
+prefix mo: <http://purl.org/ontology/mo/>
+select * where {
+  ?artist a mo:MusicArtist.
+  ?artist foaf:name "%label%". 
+  ?artist foaf:based_near ?loc.
+  ?loc a <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>.
+  ?loc rdfs:label "%locationLabel%"
+} LIMIT 100
+
+prefix mo: <http://purl.org/ontology/mo/>
+select distinct ?loc where {
+  ?artist a mo:MusicArtist. 
+  ?artist foaf:name "Paolo Nutini". 
+  ?artist foaf:made ?release. 
+  ?event mo:release ?release. 
+  ?event <http://purl.org/NET/c4dm/event.owl#place> ?loc. 
+  ?loc a <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+} LIMIT 100
+
+#made release at a certain place (e.g., live performance cd)
+prefix mo: <http://purl.org/ontology/mo/>
+select distinct ?loc where {
+  ?artist a mo:MusicArtist. 
+  ?artist foaf:name "%label%". 
+  ?artist foaf:made ?release. 
+  ?event mo:release ?release. 
+  ?event <http://purl.org/NET/c4dm/event.owl#place> ?loc. 
+  ?loc a <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+} LIMIT 100
+
+#made release event at a certain place (e.g., live performance cd)
+prefix mo: <http://purl.org/ontology/mo/>
+select distinct ?loc where {
+  ?artist a mo:MusicArtist. 
+  ?artist foaf:name "%label%". 
+  ?artist foaf:made ?release. 
+  ?event mo:release ?release. 
+  ?event <http://purl.org/NET/c4dm/event.owl#place> ?loc. 
+  ?loc a <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+} LIMIT 100
+
+#members based near
+prefix mo: <http://purl.org/ontology/mo/>
+select distinct ?loc where {
+  ?artist a mo:MusicArtist. 
+  ?artist foaf:name "%label%". 
+  ?member mo:member_of ?artist.
+  ?member foaf:based_near ?loc.
+  ?loc a <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+} LIMIT 100
+
+#members to dbpedia
+prefix mo: <http://purl.org/ontology/mo/>
+select distinct ?dbpedia where {
+  ?artist a mo:MusicArtist. 
+  ?artist foaf:name "%label%". 
+  ?member mo:member_of ?artist.
+  ?member owl:same-as ?dbpedia.
+} LIMIT 100
+
+#dbpediaMembers to birthdate [HARD]
+select distinct ?birthLoc where {
+  ?dbpedia <http://dbpedia.org/ontology/birthPlace> ?birthLoc
+}
+
+
+

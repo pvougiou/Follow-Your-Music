@@ -1,0 +1,24 @@
+Client -> Server 
+{
+  location: {
+    lat: 3.222,
+	lng: -2.456
+  },
+  artists: [
+    'U2',
+	'lafla'
+  ]
+}
+
+Server -> Client
+[
+	{location:
+		{
+		lat:
+		lng:
+		},
+	type: 'string',
+	title: string,
+	description: 'string'	
+	}
+]

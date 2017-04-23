@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Follow Your Music</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- The head of the web page -->
+        <div class="header clearfix">
+            <nav>
+                <h1>Follow Your Music</h1>
+            </nav>
+        </div>
+
+        <!-- The first row: input and button -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="textArtist" placeholder="Enter your favorite artist" />
+                </div>
+                <div class="col-lg-2">
+                    <button id="addArtist" class="btn btn-default" onclick="return addArtist();">Submit</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- The second row: google map and artist list -->
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Google Map -->
+                <div class="col-lg-9">
+                    <div id="map">
+                    </div>
+                </div>
+
+                <!-- Artist Table -->
+                <div class="col-lg-3">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <td>Favorite Artists</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tableArtist"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- The third row: location and search button -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1">
+                    <p><b>Location</b></p>
+                </div>
+                <div class="col-lg-9">
+                    <p id="location">
+                    </p>
+                </div>
+                <div class="col-lg-2">
+                    <button id="SearchButton" class="btn btn-default" onclick="return Search();">Get Data</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Google Maps -->
+    
+    <script type="text/javascript" src="./javascript/socket.io-client/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="./javascript/googlemaps.js">
+    </script>
+    <script type="text/javascript" src="./javascript/websitefunctions.js">
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX4bXfwcSPW7oSuMZtb8Os-RwVHfuBPIE&libraries=places&sensor=false&callback=initMap"
+            type="text/javascript">
+    </script>
+</body>
+</html>

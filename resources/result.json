@@ -1,0 +1,20 @@
+[
+  {
+    "location": "Lisbon",
+    "type": "Release",
+    "title": "Country Life",
+    "description": "<span class=\"location-title\">Country Life</span> by <span class=\"location-artist\">Roxy Music</span> was released in Lisbon in 1977<br/><span class=\"location-comment\"><span class=\"location-artist\">Roxy Music</span> is related to <span class=\"location-artist\">David Bowie</span>, one of your favorite artists</span>"
+  },
+  {
+    "location": "Lisbon",
+    "type": "Release",
+    "title": "Seven Seas of Rhye",
+    "description": "<span class=\"location-title\">Seven Seas of Rhye</span> by <span class=\"location-artist\">Queen</span> was released in Lisbon in February 1974<br/><span class=\"location-comment\"><span class=\"location-artist\">Queen</span> is related to <span class=\"location-artist\">David Bowie</span>, one of your favorite artists</span>"
+  },
+  {
+    "location": "Estadio Restelo, Lisbon, Portugal",
+    "type": "Performance",
+    "title": "Queen",
+    "description": "<span class=\"location-artist\">Queen</span> performed here on Saturday 02 July 2005<br/><span class=\"location-comment\"><span class=\"location-artist\">Queen</span> is related to <span class=\"location-artist\">David Bowie</span>, one of your favorite artists</span>"
+  }
+]

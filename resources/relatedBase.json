@@ -1,0 +1,125 @@
+{
+  "location": "Brussels",
+  "favorites": {
+    "John Domingue": [
+      "Paolo Nutini",
+      "Mazy",
+      "David Bowie",
+      "Frank Ocean",
+      "George Ezra"
+    ]
+  },
+  "relatedArtists": {
+    "Paolo Nutini": [
+      "Newton Faulkner",
+      "John Mayer",
+      "David Gray",
+      "James Morrison",
+      "James Blunt",
+      "Jamie Cullum",
+      "Nizlopi",
+      "KT Tunstall",
+      "Jason Mraz",
+      "Daniel Merriweather",
+      "Ben Harper",
+      "Adele",
+      "Damien Rice",
+      "Amos Lee",
+      "Howie Day",
+      "Keane",
+      "Jack Johnson",
+      "Ray LaMontagne",
+      "Aqualung",
+      "Joshua Radin"
+    ],
+    "David Bowie": [
+      "Roxy Music",
+      "Lou Reed",
+      "Bryan Ferry",
+      "Queen",
+      "T. Rex",
+      "Sparks",
+      "Iggy Pop",
+      "Tin Machine",
+      "Talking Heads",
+      "Billy Idol",
+      "Marc Bolan",
+      "Elvis Costello",
+      "Freddy Mercury",
+      "Peter Gabriel",
+      "The Police",
+      "The Kinks",
+      "The Stranglers",
+      "Mott The Hoople",
+      "The Cure",
+      "Blondie"
+    ]
+  },
+  "upperLocations": {
+    "Lisbon": [
+      "Lisboa",
+      "Portugal"
+    ],
+    "Brussels": [
+      "Belgium"
+    ],
+    "London": [
+      "England",
+      "United Kingdom"
+    ]
+  },
+  "places": {
+    "Lisbon": [
+      "Auditório Viana da Mota",
+      "Aula Magna da Universidade de Lisboa",
+      "Bela Vista Park",
+      "Centro Cultural de Belém",
+      "Cervantes Studio",
+      "Coliseu dos Recreios",
+      "Estádio do Restelo",
+      "Êxito Estúdios",
+      "Fundação Calouste Gulbenkian: Grande Auditório",
+      "MEO Arena",
+      "Salão Nobre",
+      "TIA Studio"
+    ],
+    "Brussels": [
+      "AB Studio Recording",
+      "Amor & Psyché Studio",
+      "Ancienne Belgique",
+      "Antler's Basement Studio",
+      "Centre for Fine Arts",
+      "Cirque Royal",
+      "Concert Hall of the Belgian Radio and Television",
+      "Concert Hall of the Brussels Conservatory",
+      "Digipro",
+      "Electric City",
+      "Elektropolis",
+      "Equus",
+      "Flagey Arts Center: Studio 4",
+      "Fuse",
+      "Henry le Boeuf Hall",
+      "Homeworks Studio",
+      "ICP Recording Studios",
+      "Los Soundgeles",
+      "Low Man’s Land",
+      "Maison de la Radio",
+      "Notre Dame des Grâces au Chant d'Oiseau",
+      "Odéon 120 -The Right Place",
+      "Plan K",
+      "Royal Museums of Fine Arts of Belgium",
+      "Start Studio",
+      "Studio Caraïbes",
+      "Studio Madeleine",
+      "Studio Molière",
+      "Studio Philips",
+      "Studio XXL",
+      "SynSound",
+      "The Closet",
+      "Théâtre de la Monnaie",
+      "Vorst Forest Nationaal"
+    ],
+    "London": [
+    ]
+  }
+}
