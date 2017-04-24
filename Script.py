@@ -30,10 +30,10 @@ position = args.location
 #print position
 
 
-"""ckey = 'xg2icXuTyk7XjzZel1vsU9jzX'
-csecret = 'VcJfl8ubJlkH9mqC6giEu6GeRIaUlrqTvlnfdQNG6pnEclJSPm'
-atoken = '2582687466-jLibuQMk1E1PkrgN5QDAOKnC0nIHjD2PrqIHSQx'
-asecret = 'MEszlAeagwNxkcQFSTTWoclRTvMHWQpaHJKySFfjqfgjZ'
+"""ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 
 
